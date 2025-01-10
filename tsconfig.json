@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es5",                   // Compile to ES5 for wider browser compatibility
+      "lib": ["dom", "esnext"],           // Include DOM types and modern ES features
+      "jsx": "react-jsx",                 // Enable JSX support (use 'react' for older React versions)
+      "moduleResolution": "node",         // Resolve modules the same way Node.js does
+      "strict": true,                     // Enable all strict type-checking options
+      "esModuleInterop": true,            // Allow default imports from modules with no default export
+      "skipLibCheck": true,               // Skip type checking of declaration files
+      "forceConsistentCasingInFileNames": true // Ensure consistent casing in file names
+    },
+    "include": [
+      "src/**/*"                          // Include all files in the src folder
+    ],
+    "exclude": [
+      "node_modules"                      // Exclude node_modules folder
+    ]
+  }
+  
